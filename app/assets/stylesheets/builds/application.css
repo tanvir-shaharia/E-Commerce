@@ -1,0 +1,15 @@
+.line-item-highlight {
+  animation: line-item-highlight 1s;
+}
+
+@keyframes line-item-highlight {
+  0% {
+    background: #8f8;
+  }
+  100% {
+    background: none;
+  }
+}
+.input-field {
+  border: 1px solid black;
+}
