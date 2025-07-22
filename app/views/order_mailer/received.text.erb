@@ -1,0 +1,10 @@
+Order Confirmation
+
+Dear <%= @order.name %>,
+
+Thank you for your recent order from The Pragmatic Store.
+You ordered the following items:
+
+<% @order.line_items.each do |item| %>
+  <%= item.quantity %> x <%= item.product.title %>
+<% end %>
